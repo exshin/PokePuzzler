@@ -1,0 +1,25 @@
+{
+  "id": 12,
+  "name": "Butterfree",
+  "stats": {
+    "hp": 40.0,
+    "attack": 9.0,
+    "spattack": 18.0,
+    "defense": 10.0,
+    "spdefense": 16.0,
+    "speed": 14.0,
+    "turns": 5.0
+  },
+  "growth": {
+    "hp": 1.8,
+    "attack": 1.1,
+    "spattack": 1.2,
+    "defense": 1.5,
+    "spdefense": 1.4,
+    "speed": 1.1,
+    "turns": 0.05
+  },
+  "type": ["Bug", "Flying"],
+  "moves": [13, 14, 15],
+  "spriteSize": 60
+}

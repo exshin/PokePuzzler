@@ -1,0 +1,25 @@
+{
+  "id": 7,
+  "name": "Squirtle",
+  "stats": {
+    "hp": 39.0,
+    "attack": 8.0,
+    "spattack": 11.0,
+    "defense": 13.0,
+    "spdefense": 10.0,
+    "speed": 10.0,
+    "turns": 3.0
+  },
+  "growth": {
+    "hp": 1.8,
+    "attack": 1.1,
+    "spattack": 1.2,
+    "defense": 1.5,
+    "spdefense": 1.4,
+    "speed": 1.1,
+    "turns": 0.05
+  },
+  "type": ["Water"],
+  "moves": [7, 8, 9],
+  "spriteSize": 65
+}

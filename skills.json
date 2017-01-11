@@ -1,0 +1,280 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Scratch",
+    "power": 12,
+    "description": "Charmander attacks with sharp claws, dealing light damage.",
+    "cost": 3,
+    "type": "Normal",
+    "style": "attack",
+    "additional": [],
+    "animation": {}
+  },
+  "2": {
+    "id": 2,
+    "name": "Ember",
+    "power": 17,
+    "description": "Charmander sends out small flames, damaging the opponent. Deals moderate damage and destroys 8 random tiles.",
+    "cost": 5,
+    "type": "Fire",
+    "style": "spattack",
+    "additional": [{"name": "destroyRandomTiles", "arg": "8 ember"}],
+    "animation": {}
+  },
+  "3": {
+    "id": 3,
+    "name": "Rock Smash",
+    "power": 15,
+    "description": "The user attacks with a punch that can shatter a rock. Destroys a 3x3 block of tiles.",
+    "cost": 5,
+    "type": "Fighting",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTileBlock", "arg": "3"}],
+    "animation": {}
+  },
+  "4": {
+    "id": 4,
+    "name": "Quick Attack",
+    "power": 15,
+    "description": "Pikachu zips across the battlefield dealing damage and destroying 4 random tiles.",
+    "cost": 4,
+    "type": "Normal",
+    "style": "attackspeed",
+    "additional": [{"name": "destroyRandomTiles", "arg": "8 pow"}],
+    "animation": {}
+  },
+  "5": {
+    "id": 5,
+    "name": "Iron Tail",
+    "power": 25,
+    "description": "Pikachu's tail hardens and smashes against the opponent, dealing damage and destroying a random 3x3 block of tiles.",
+    "cost": 7,
+    "type": "Steel",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTileBlock", "arg": "3"}],
+    "animation": {}
+  },
+  "6": {
+    "id": 6,
+    "name": "Thunder Bolt",
+    "power": 25,
+    "description": "Pikachu summons a lighning bolt to strike the opponent. Deals massive damage to the target and destroys a random column.",
+    "cost": 8,
+    "type": "Electric",
+    "style": "spattack",
+    "additional": [{"name": "destroyRandomColumn", "arg": "1"}],
+    "animation": {}
+  },
+  "7": {
+    "id": 7,
+    "name": "Bite",
+    "power": 25,
+    "description": "Squirtle bites the foe, dealing damage and destroying 2 random tiles.",
+    "cost": 4,
+    "type": "Dark",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTiles", "arg": "2 pow"}],
+    "animation": {}
+  },
+  "8": {
+    "id": 8,
+    "name": "Skull Bash",
+    "power": 30,
+    "description": "Squirtle tucks its head into its shell and then bashes the foe, dealing massive damage and destroying a 5x5 block of tiles.",
+    "cost": 10,
+    "type": "Normal",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTileBlock", "arg": "5"}],
+    "animation": {}
+  },
+  "9": {
+    "id": 9,
+    "name": "Water Gun",
+    "power": 25,
+    "description": "Shoots a strong stream of water at the foe, dealing moderate damage and destroying a random row.",
+    "cost": 6,
+    "type": "Water",
+    "style": "spattack",
+    "additional": [{"name": "destroyRandomRow", "arg": "1"}],
+    "animation": {}
+  },
+  "10": {
+    "id": 10,
+    "name": "Growth",
+    "power": 0,
+    "description": "Transforms 6 random tiles into grass tiles",
+    "cost": 3,
+    "type": "Normal",
+    "style": "spattack",
+    "additional": [{"name": "transformRandomTiles", "arg": "grass 6"}],
+    "animation": {}
+  },
+  "11": {
+    "id": 11,
+    "name": "Razor Leaf",
+    "power": 15,
+    "description": "Sharp-edged leaves are launched to slash at the opposing Pokémon. Deals additional damage based on number of grass tiles in play.",
+    "cost": 6,
+    "type": "Grass",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTiles", "arg": "10 leaf"}],
+    "animation": {
+      "name": "animateStorm",
+      "options": {
+        "number": 10,
+        "spriteName": "leaf"
+      }
+    }
+  },
+  "12": {
+    "id": 12,
+    "name": "Poison Powder",
+    "power": 0,
+    "description": "Scatters a toxic powder that poisons the foe. For the next 3 turns, the opponent takes extra damage.",
+    "cost": 6,
+    "type": "Poison",
+    "style": "spattack",
+    "additional": [{"name": "addStatus", "arg": "Poison 3"}],
+    "animation": {}
+  },
+  "13": {
+    "id": 13,
+    "name": "Confusion",
+    "power": 20,
+    "description": "The foe is hit by a weak telekinetic force.",
+    "cost": 5,
+    "type": "Psychic",
+    "style": "spattack",
+    "additional": [],
+    "animation": {}
+  }
+  ,
+  "14": {
+    "id": 14,
+    "name": "Gust",
+    "power": 10,
+    "description": "A gust of wind is whipped up by wings and launched at the foe to inflict damage.",
+    "cost": 6,
+    "type": "Flying",
+    "style": "spattack",
+    "additional": [{"name": "destroyRandomTiles", "arg": "14 leaf"}],
+    "animation": {
+      "name": "animateStorm",
+      "options": {
+        "number": 10,
+        "spriteName": "leaf"
+      }
+    }
+  },
+  "15": {
+    "id": 15,
+    "name": "Whirlwind",
+    "power": 0,
+    "description": "Strong winds blow away all tiles on the battlefield, causing entire board to be shuffled.",
+    "cost": 6,
+    "type": "Normal",
+    "style": "spattack",
+    "additional": [{"name": "shuffleBoard", "arg": ""}],
+    "animation": {}
+  },
+  "16": {
+    "id": 16,
+    "name": "Bug Buzz",
+    "power": 25,
+    "description": "The user vibrates its wings to generate a damaging sound wave.",
+    "cost": 8,
+    "type": "Bug",
+    "style": "spattack",
+    "additional": [{"name": "addStatus", "arg": "Poison 3"}],
+    "animation": {}
+  },
+  "17": {
+    "id": 17,
+    "name": "Earthquake",
+    "power": 25,
+    "description": "The user causes the ground to quake, dealing damage and shuffling the board.",
+    "cost": 10,
+    "type": "Ground",
+    "style": "attack",
+    "additional": [{"name": "shuffleBoard", "arg": ""}],
+    "animation": {}
+  },
+  "18": {
+    "id": 18,
+    "name": "Rock Throw",
+    "power": 10,
+    "description": "The user throws a large rock at the foe, dealing damage and destroying a 5x5 block of tiles.",
+    "cost": 6,
+    "type": "Rock",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTileBlock", "arg": "5"}],
+    "animation": {}
+  },
+  "19": {
+    "id": 19,
+    "name": "Slash",
+    "power": 20,
+    "description": "The user slashes the foe viciously, dealing damage.",
+    "cost": 4,
+    "type": "Normal",
+    "style": "attack",
+    "additional": [],
+    "animation": {}
+  },
+  "20": {
+    "id": 20,
+    "name": "Flame Burst",
+    "power": 25,
+    "description": "The user shoots fire at the foe, exploding upon contact. Deals damage and destroys a 3x3 block of tiles.",
+    "cost": 6,
+    "type": "Fire",
+    "style": "spattack",
+    "additional": [{"name": "destroyRandomTileBlock", "arg": "3"}],
+    "animation": {}
+  },
+  "21": {
+    "id": 21,
+    "name": "Rock Tomb",
+    "power": 22,
+    "description": "The user sends out a large pile of rocks, dealing damage and slowing the foe.",
+    "cost": 5,
+    "type": "Rock",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomTileBlock", "arg": "3"}],
+    "animation": {}
+  },
+  "22": {
+    "id": 22,
+    "name": "Dragon Claw",
+    "power": 25,
+    "description": "The user sends out a large pile of rocks, dealing damage and destroying 3 random columns.",
+    "cost": 6,
+    "type": "Dragon",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomColumn", "arg": "2"}],
+    "animation": {}
+  },
+  "23": {
+    "id": 23,
+    "name": "Air Cutter",
+    "power": 22,
+    "description": "The user cuts the air with its wings. Deals damage and destroys 3 random rows",
+    "cost": 6,
+    "type": "Flying",
+    "style": "attack",
+    "additional": [{"name": "destroyRandomRow", "arg": "3"}],
+    "animation": {}
+  },
+  "24": {
+    "id": 24,
+    "name": "Fire Blast",
+    "power": 30,
+    "description": "The user blasts the foe with a scorching inferno, dealing massive damage and destroying 15 random tiles.",
+    "cost": 10,
+    "type": "Fire",
+    "style": "spattack",
+    "additional": [{"name": "destroyRandomTiles", "arg": "15 ember"}],
+    "animation": {}
+  }
+  
+}

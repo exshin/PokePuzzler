@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "name": "Bulbasaur",
+  "stats": {
+    "hp": 37.0,
+    "attack": 10.0,
+    "spattack": 13.0,
+    "defense": 10.0,
+    "spdefense": 13.0,
+    "speed": 11.0,
+    "turns": 3.0
+  },
+  "growth": {
+    "hp": 1.8,
+    "attack": 1.3,
+    "spattack": 1.4,
+    "defense": 1.2,
+    "spdefense": 1.3,
+    "speed": 1.2,
+    "turns": 0.06
+  },
+  "type": ["Grass", "Poison"],
+  "moves": [10, 11, 12],
+  "spriteSize": 70
+}
