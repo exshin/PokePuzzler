@@ -1,0 +1,23 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "3affe680ebbcb161de72ebe592b68ace"
+build_time: [538700243, 428600000]
+inputs:
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Foundation.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Helpers.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Blob.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Connection.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Statement.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Value.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/Cipher.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/FTS4.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/FTS5.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/RTree.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/AggregateFunctions.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Collation.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/CoreFunctions.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/CustomFunctions.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Expression.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Operators.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Query.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Schema.swift": [538700226, 0]
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Setter.swift": [538700226, 0]

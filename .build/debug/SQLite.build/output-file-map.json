@@ -1,0 +1,119 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/master.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Foundation.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Foundation.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Foundation.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Foundation~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Foundation.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Helpers.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Helpers.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Helpers.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Helpers.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Blob.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Blob.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Core/Blob.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Blob~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Blob.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Connection.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Connection.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Core/Connection.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Connection.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Statement.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Statement.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Core/Statement.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Statement~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Statement.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Core/Value.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Value.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Core/Value.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Value~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Value.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/Cipher.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Cipher.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Extensions/Cipher.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Cipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Cipher.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/FTS4.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/FTS4.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Extensions/FTS4.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/FTS4~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/FTS4.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/FTS5.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/FTS5.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Extensions/FTS5.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/FTS5~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/FTS5.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Extensions/RTree.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/RTree.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Extensions/RTree.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/RTree~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/RTree.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/AggregateFunctions.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/AggregateFunctions.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/AggregateFunctions.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/AggregateFunctions~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/AggregateFunctions.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Collation.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Collation.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/Collation.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Collation~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Collation.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/CoreFunctions.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/CoreFunctions.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/CoreFunctions.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/CoreFunctions~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/CoreFunctions.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/CustomFunctions.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/CustomFunctions.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/CustomFunctions.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/CustomFunctions~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/CustomFunctions.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Expression.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Expression.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/Expression.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Expression~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Expression.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Operators.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Operators.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/Operators.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Operators.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Query.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Query.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/Query.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Query~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Query.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Schema.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Schema.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/Schema.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Schema~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Schema.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLite/Typed/Setter.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Setter.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Typed/Setter.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Setter~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/SQLite.build/Setter.swiftdeps"
+  }
+}

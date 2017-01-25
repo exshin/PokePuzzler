@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "8a94996c17e1610d22cf195b3533c2d1"
+build_time: [538694497, 672395000]
+inputs:
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Sources/PokePuzzler.swift": !dirty [537706687, 0]

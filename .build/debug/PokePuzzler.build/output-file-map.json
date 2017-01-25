@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/PokePuzzler.build/master.swiftdeps"
+  },
+  "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Sources/PokePuzzler.swift": {
+    "dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/PokePuzzler.build/PokePuzzler.d",
+    "object": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/PokePuzzler.build/PokePuzzler.swift.o",
+    "swiftmodule": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/PokePuzzler.build/PokePuzzler~partial.swiftmodule",
+    "swift-dependencies": "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/.build/debug/PokePuzzler.build/PokePuzzler.swiftdeps"
+  }
+}

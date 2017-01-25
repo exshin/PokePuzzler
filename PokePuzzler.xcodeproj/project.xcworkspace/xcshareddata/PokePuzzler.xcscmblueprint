@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39548472B93D09C572D86AD848568368EBBF74B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "39548472B93D09C572D86AD848568368EBBF74B1" : 9223372036854775807,
+    "1C5AD8B0972500A82CD8E91974C2F455974C9D82" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19DD17AF-6D5F-471F-84E0-8B51672812AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "39548472B93D09C572D86AD848568368EBBF74B1" : "PokePuzzler\/",
+    "1C5AD8B0972500A82CD8E91974C2F455974C9D82" : "PokePuzzler\/Packages\/CSQLite-0.0.1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PokePuzzler",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PokePuzzler.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephencelis\/CSQLite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C5AD8B0972500A82CD8E91974C2F455974C9D82"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:exshin\/PokePuzzler.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39548472B93D09C572D86AD848568368EBBF74B1"
+    }
+  ]
+}

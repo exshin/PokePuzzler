@@ -1,0 +1,5 @@
+module SQLiteObjc {
+    umbrella "/Users/eugenechinveeraphan/Documents/education/iOS/PokePuzzler/Packages/SQLite-0.11.2/Sources/SQLiteObjc/include"
+    link "SQLiteObjc"
+    export *
+}
