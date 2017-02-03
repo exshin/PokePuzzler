@@ -17,8 +17,11 @@ class BattleSelectViewController: UIViewController, UIPickerViewDelegate {
   var myPokemon: Pokemon? = Pokemon(filename: "pikachu", PokemonPosition: .myPokemon)
   var opponentPokemon: Pokemon? = Pokemon(filename: "pikachu", PokemonPosition: .opponentPokemon)
   
+  // MARK: IBOutlets
   @IBOutlet weak var myPokemonPicker: UIPickerView!
   @IBOutlet weak var opponentPokemonPicker: UIPickerView!
+  
+  // MARK: IBActions
   @IBAction func fightButton(sender: AnyObject) {
     let battleScene = storyboard?.instantiateViewController(withIdentifier: "GameViewController") as! GameViewController
     battleScene.myPokemon = self.myPokemon
@@ -49,6 +52,13 @@ class BattleSelectViewController: UIViewController, UIPickerViewDelegate {
     
     self.myPokemonPicker.delegate = self
     self.opponentPokemonPicker.delegate = self
+    
+    let dataController = UsersDataController()
+    dataController.createUser()
+    
+    let user = dataController.getUser()
+    print(user.value(forKeyPath: "name") as! String)
+    print(user.value(forKeyPath: "coins") as! Int)
     
     // set up scene here
     // see: GameViewController.setupLevel()

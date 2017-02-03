@@ -374,11 +374,11 @@ extension GameScene {
   func animateSwitchTurns(myTurn: Bool, completion: @escaping () -> ()) {
     
     // Set up the switch turns banner
-    let banner = SKSpriteNode(color:SKColor .white, size: CGSize(width: UIScreen.main.bounds.width - 20, height: 42))
+    let banner = SKSpriteNode(color:SKColor .white, size: CGSize(width: UIScreen.main.bounds.width - 20, height: 46))
     let color = UIColor(hexString: "#454545ff")
     banner.color = color!
     banner.anchorPoint = CGPoint(x: 0.0, y: 0.0)
-    banner.position = CGPoint(x: 10, y: 170)
+    banner.position = CGPoint(x: 10, y: 165)
     banner.zPosition = 299
     self.cookiesLayer.addChild(banner)
     
@@ -391,8 +391,8 @@ extension GameScene {
     }
     
     switchTurnLabel.fontColor = UIColor.white
-    switchTurnLabel.fontSize = 24.0
-    switchTurnLabel.position = CGPoint(x: UIScreen.main.bounds.width/2 - 30, y: 180)
+    switchTurnLabel.fontSize = 25.0
+    switchTurnLabel.position = CGPoint(x: UIScreen.main.bounds.width/2 - 30, y: 177)
     switchTurnLabel.zPosition = 300
     self.cookiesLayer.addChild(switchTurnLabel)
     

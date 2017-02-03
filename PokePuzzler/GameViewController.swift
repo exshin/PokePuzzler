@@ -9,6 +9,7 @@
 import UIKit
 import SpriteKit
 import AVFoundation
+import CoreData
 
 class GameViewController: UIViewController {
   
@@ -42,6 +43,9 @@ class GameViewController: UIViewController {
   // Elements
   var elements: [String:Int] = [:]
   var opponentEnergy: [String:Int] = [:]
+  
+  // Data
+  
   
   var tapGestureRecognizer: UITapGestureRecognizer!
 
@@ -367,14 +371,10 @@ class GameViewController: UIViewController {
   
   func healthCheck() {
     if opponentCurrentHP <= 0 {
-      gameOverPanel.image = UIImage(named: "LevelComplete")
-      // Increment the current level, go back to level 1 if the current level
-      // is the last one.
-      currentLevelNum = currentLevelNum < NumLevels ? currentLevelNum+1 : 1
-      showGameOver()
+      // currentLevelNum = currentLevelNum < NumLevels ? currentLevelNum+1 : 1
+      showGameOver(status: "win")
     } else if myCurrentHP <= 0 {
-      gameOverPanel.image = UIImage(named: "GameOver")
-      showGameOver()
+      showGameOver(status: "lose")
     }
   }
   
@@ -412,14 +412,28 @@ class GameViewController: UIViewController {
     }
   }
   
-  func showGameOver() {
-    gameOverPanel.isHidden = false
-    scene.isUserInteractionEnabled = false
-    
-    scene.animateGameOver() {
-      self.tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.hideGameOver))
-      self.view.addGestureRecognizer(self.tapGestureRecognizer)
+  func showGameOver(status: String) {
+    let endScene = storyboard?.instantiateViewController(withIdentifier: "BattleEndViewController") as! BattleEndViewController
+    if status == "win" {
+      endScene.coinsEarned = Int(opponentPokemon.stats["hp"]! * 3) - Int(myPokemon.stats["hp"]!) + 100
+      endScene.expEarned = Int(opponentPokemon.stats["hp"]! * 2)
+      endScene.battleSuccess = true
+    } else {
+      endScene.coinsEarned = 0
+      endScene.expEarned = 0
+      endScene.battleSuccess = false
     }
+    
+    self.present(endScene, animated: true) { }
+    
+    
+    //gameOverPanel.isHidden = false
+    //scene.isUserInteractionEnabled = false
+    
+//    scene.animateGameOver() {
+//      self.tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.hideGameOver))
+//      self.view.addGestureRecognizer(self.tapGestureRecognizer)
+//    }
   }
   
   func hideGameOver() {
