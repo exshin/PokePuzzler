@@ -31,6 +31,7 @@
 		2A82C9F81E1E56CA00862BC8 /* butterfree.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A82C9F71E1E56CA00862BC8 /* butterfree.json */; };
 		2A82C9FA1E1E5F8E00862BC8 /* charmeleon.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A82C9F91E1E5F8E00862BC8 /* charmeleon.json */; };
 		2A82C9FC1E1E612D00862BC8 /* charizard.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A82C9FB1E1E612D00862BC8 /* charizard.json */; };
+		2A83E0A81E41E8E900DBF5BF /* PokePuzzler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A83E0A61E41E8E900DBF5BF /* PokePuzzler.xcdatamodeld */; };
 		2ABAB2661E262DE300B35A06 /* BattleEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAB2651E262DE300B35A06 /* BattleEndViewController.swift */; };
 		2ABB4A321E1C42AE00B59CD2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABB4A311E1C42AE00B59CD2 /* GameViewController.swift */; };
 		2ABB4A341E1C42C700B59CD2 /* SkillFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABB4A331E1C42C700B59CD2 /* SkillFunctions.swift */; };
@@ -85,6 +86,7 @@
 		2A82C9F71E1E56CA00862BC8 /* butterfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = butterfree.json; sourceTree = "<group>"; };
 		2A82C9F91E1E5F8E00862BC8 /* charmeleon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = charmeleon.json; sourceTree = "<group>"; };
 		2A82C9FB1E1E612D00862BC8 /* charizard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = charizard.json; sourceTree = "<group>"; };
+		2A83E0A71E41E8E900DBF5BF /* PokePuzzler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokePuzzler.xcdatamodel; sourceTree = "<group>"; };
 		2ABAB2211E24D4BB00B35A06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2ABAB2651E262DE300B35A06 /* BattleEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleEndViewController.swift; path = PokePuzzler/BattleEndViewController.swift; sourceTree = SOURCE_ROOT; };
 		2ABB4A311E1C42AE00B59CD2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = PokePuzzler/GameViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -206,6 +208,7 @@
 		9B528B2E1CBE41770038DCB0 = {
 			isa = PBXGroup;
 			children = (
+				2A83E0A61E41E8E900DBF5BF /* PokePuzzler.xcdatamodeld */,
 				9B528B391CBE41770038DCB0 /* PokePuzzler */,
 				2A82C9AF1E1C557B00862BC8 /* Resources */,
 				9B528B381CBE41770038DCB0 /* Products */,
@@ -396,6 +399,7 @@
 				2ABB4A4E1E1C433F00B59CD2 /* Chain.swift in Sources */,
 				2ABB4A4A1E1C433900B59CD2 /* Swap.swift in Sources */,
 				2ABB4A481E1C433400B59CD2 /* Level.swift in Sources */,
+				2A83E0A81E41E8E900DBF5BF /* PokePuzzler.xcdatamodeld in Sources */,
 				2ABB4A4C1E1C433B00B59CD2 /* Tile.swift in Sources */,
 				2ABB4A561E1C436500B59CD2 /* CollectionCard.swift in Sources */,
 				2ABB4A461E1C433100B59CD2 /* Array2D.swift in Sources */,
@@ -527,6 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D5TK59JXS3;
 				INFOPLIST_FILE = PokePuzzler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.echinveeraphan.PokePuzzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,6 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D5TK59JXS3;
 				INFOPLIST_FILE = PokePuzzler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.echinveeraphan.PokePuzzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,6 +575,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A83E0A61E41E8E900DBF5BF /* PokePuzzler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A83E0A71E41E8E900DBF5BF /* PokePuzzler.xcdatamodel */,
+			);
+			currentVersion = 2A83E0A71E41E8E900DBF5BF /* PokePuzzler.xcdatamodel */;
+			path = PokePuzzler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B528B2F1CBE41770038DCB0 /* Project object */;
 }
