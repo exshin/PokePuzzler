@@ -12,9 +12,21 @@ import AVFoundation
 
 class BattleEndViewController: UIViewController {
   
-  var battleSuccess: Bool = false
-  var expEarned: Int = 0
-  var coinsEarned: Int = 0
+  var battleSuccess: Bool!
+  var expEarned: Int!
+  var coinsEarned: Int!
+  
+  // MARK: IBOutlets
+  @IBOutlet weak var expEarnedLabel: UILabel!
+  @IBOutlet weak var coinsEarnedLabel: UILabel!
+  @IBOutlet weak var messageLabel: UILabel!
+  
+  // MARK: IBActions
+  @IBAction func continueButton(sender: AnyObject) {
+    let selectScene = storyboard?.instantiateViewController(withIdentifier: "BattleSelectViewController") as! BattleSelectViewController
+    self.present(selectScene, animated: true) { }
+  }
+
   
   override var prefersStatusBarHidden: Bool {
     return true
@@ -35,6 +47,8 @@ class BattleEndViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    updateLabels()
+    
     // set up scene here
     // see: GameViewController.setupLevel()
     
@@ -46,6 +60,16 @@ class BattleEndViewController: UIViewController {
     // Save coin and experience earned
     
     
+  }
+  
+  func updateLabels() {
+    if battleSuccess == true {
+      messageLabel.text = "You Won!"
+    } else {
+      messageLabel.text = "You Lost..."
+    }
+    expEarnedLabel.text = String(format: "%ld", Int(expEarned))
+    coinsEarnedLabel.text = String(format: "%ld", Int(coinsEarned))
   }
   
 }
