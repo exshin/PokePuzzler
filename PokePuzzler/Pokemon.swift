@@ -57,7 +57,8 @@ class Pokemon: Hashable {
   }
   
   func calcExpNeeded(currentLevel: Int) -> Int {
-    return 100 + Int(pow((Double(20 * currentLevel)), 1.3))
+    let multiplier = 1.3 // TODO: Make multiplier based on specific pokemon
+    return 100 + Int(pow((Double(20 * currentLevel)), multiplier))
   }
   
 }
@@ -65,11 +66,13 @@ class Pokemon: Hashable {
 enum PokemonPosition: CustomStringConvertible {
   case myPokemon
   case opponentPokemon
+  case collections
   
   var description: String {
     switch self {
     case .myPokemon: return "myPokemon"
     case .opponentPokemon: return "opponentPokemon"
+    case .collections: return "collections"
     }
   }
 }

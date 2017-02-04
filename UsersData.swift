@@ -13,6 +13,7 @@ import UIKit
 class UsersDataController {
   
   var users: [NSManagedObject] = []
+  let entityName = "Users"
   
   func createUser() {
     
@@ -22,7 +23,7 @@ class UsersDataController {
     
     let managedContext = appDelegate.persistentContainer.viewContext
     
-    let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Users")
+    let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: entityName)
     do {
       users = try managedContext.fetch(fetchRequest)
     } catch let error as NSError {
@@ -32,7 +33,7 @@ class UsersDataController {
       return
     }
     
-    let entity = NSEntityDescription.entity(forEntityName: "Users", in: managedContext)!
+    let entity = NSEntityDescription.entity(forEntityName: entityName, in: managedContext)!
     let person = NSManagedObject(entity: entity, insertInto: managedContext)
     
     person.setValue("TestUser", forKeyPath: "name")
@@ -49,7 +50,7 @@ class UsersDataController {
   func getUser() -> NSManagedObject {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     let managedContext = appDelegate.persistentContainer.viewContext
-    let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Users")
+    let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: entityName)
     
     do {
       users = try managedContext.fetch(fetchRequest)
@@ -68,6 +69,8 @@ class UsersDataController {
     user.setValue(currentCoins + addCoinsAmount, forKeyPath: "coins")
     
     do {
+      let appDelegate = UIApplication.shared.delegate as! AppDelegate
+      let managedContext = appDelegate.persistentContainer.viewContext
       try managedContext.save()
     } catch let error as NSError {
       print("Could not save. \(error), \(error.userInfo)")
