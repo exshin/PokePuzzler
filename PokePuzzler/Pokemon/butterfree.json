@@ -21,5 +21,7 @@
   },
   "type": ["Bug", "Flying"],
   "moves": [13, 14, 15],
-  "spriteSize": 60
+  "spriteSize": 60,
+  "evolveFrom": "",
+  "evolveTo": ""
 }

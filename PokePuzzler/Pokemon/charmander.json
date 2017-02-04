@@ -21,5 +21,7 @@
   },
   "type": ["Fire"],
   "moves": [1, 2, 3],
-  "spriteSize": 70
+  "spriteSize": 70,
+  "evolveFrom": "",
+  "evolveTo": ""
 }

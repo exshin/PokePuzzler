@@ -62,4 +62,16 @@ class UsersDataController {
     
   }
   
+  func updateCoins(addCoinsAmount: Int) {
+    let user = getUser()
+    let currentCoins = user.value(forKeyPath: "coins") as! Int
+    user.setValue(currentCoins + addCoinsAmount, forKeyPath: "coins")
+    
+    do {
+      try managedContext.save()
+    } catch let error as NSError {
+      print("Could not save. \(error), \(error.userInfo)")
+    }
+  }
+  
 }

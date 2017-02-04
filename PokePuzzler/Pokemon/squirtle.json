@@ -21,5 +21,7 @@
   },
   "type": ["Water"],
   "moves": [7, 8, 9],
-  "spriteSize": 65
+  "spriteSize": 65,
+  "evolveFrom": "",
+  "evolveTo": ""
 }

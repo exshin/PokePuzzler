@@ -56,6 +56,10 @@ class Pokemon: Hashable {
     return self.id
   }
   
+  func calcExpNeeded(currentLevel: Int) -> Int {
+    return 100 + Int(pow((Double(20 * currentLevel)), 1.3))
+  }
+  
 }
 
 enum PokemonPosition: CustomStringConvertible {

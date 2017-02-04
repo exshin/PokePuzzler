@@ -21,5 +21,7 @@
   },
   "type": ["Rock", "Ground"],
   "moves": [5, 17, 18],
-  "spriteSize": 120
+  "spriteSize": 120,
+  "evolveFrom": "",
+  "evolveTo": ""
 }

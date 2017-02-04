@@ -138,7 +138,7 @@
 				2A82C9B01E1C558F00862BC8 /* Sounds */,
 				2A82C9BD1E1C55A500862BC8 /* Levels */,
 				2A82C9CA1E1C563A00862BC8 /* Pokemon */,
-				2A82C9F21E1C596700862BC8 /* Skills */,
+				2A82C9F21E1C596700862BC8 /* Other */,
 				2A82C9E01E1C56DB00862BC8 /* Sprites.atlas */,
 				2A82C9DA1E1C569000862BC8 /* Grid.atlas */,
 			);
@@ -190,13 +190,13 @@
 			path = PokePuzzler/Pokemon;
 			sourceTree = SOURCE_ROOT;
 		};
-		2A82C9F21E1C596700862BC8 /* Skills */ = {
+		2A82C9F21E1C596700862BC8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				2A82C9F31E1C597800862BC8 /* skills.json */,
 				2A82C9F51E1C643600862BC8 /* typing.json */,
 			);
-			name = Skills;
+			name = Other;
 			sourceTree = "<group>";
 		};
 		2A83E0A91E42981900DBF5BF /* CoreData */ = {
