@@ -172,7 +172,7 @@ class GameViewController: UIViewController {
       energySet = Set(Array(self.elements.keys) + Array(self.opponentEnergy.keys))
       repeat {
         energySet.insert(CookieType.random().description)
-      } while energySet.count < 7
+      } while energySet.count < 6
     } else {
       energySet = Set(level.energySet)
     }
@@ -234,11 +234,11 @@ class GameViewController: UIViewController {
     } else {
       // First, remove any matches...
       scene.animateMatchedCookies(for: chains) {
-        var dmg: Float = 0.0
         
-        // Add the new scores to the total.
-        // Add elements scores to total.
+        // Calculate match damage, element gain, and animations
         if self.myTurn == true {
+          
+          
           for chain in chains {
             let elementType = chain.cookieType
             if self.elements[elementType] != nil {
@@ -254,14 +254,17 @@ class GameViewController: UIViewController {
             }
             
             // Minor Damage for each Match
-            dmg = Float(chain.score) - Float(2)
+            let dmg = Float(chain.score) - Float(2)
+            
+            self.scene.animateDamage(pokemon: self.opponentPokemon, damageValue: Int(dmg)) {
+              
+            }
             self.opponentCurrentHP += -dmg
             if self.opponentCurrentHP <= 0 {
               self.opponentCurrentHP = 0
             }
-            self.scene.animateDamage(pokemon: self.opponentPokemon, damageValue: Int(dmg)) {
-              self.updateHPValue(currentHP: self.opponentCurrentHP, maxHP: self.opponentPokemon.stats["hp"]!, target: "opponentPokemon")
-            }
+            self.updateLabels()
+            self.updateHPValue(currentHP: self.opponentCurrentHP, maxHP: self.opponentPokemon.stats["hp"]!, target: "opponentPokemon")
           }
           
           // Update energy values
@@ -287,14 +290,15 @@ class GameViewController: UIViewController {
             }
             
             // Minor Damage for each Match
-            dmg = Float(chain.score) - Float(2)
+            let dmg = Float(chain.score) - Float(2)
+            self.scene.animateDamage(pokemon: self.myPokemon, damageValue: Int(dmg)) {
+              
+            }
             self.myCurrentHP += -dmg
             if self.myCurrentHP <= 0 {
               self.myCurrentHP = 0
             }
-            self.scene.animateDamage(pokemon: self.myPokemon, damageValue: Int(dmg)) {
-              
-            }
+            self.updateLabels()
             self.updateHPValue(currentHP: self.myCurrentHP, maxHP: self.myPokemon.stats["hp"]!, target: "myPokemon")
           }
         }
@@ -337,7 +341,10 @@ class GameViewController: UIViewController {
     
     let reduceHealth = SKAction.resize(byWidth: CGFloat(cgDiff), height: 0, duration: 0.5)
     healthBar.run(reduceHealth)
-    updateLabels()
+    if hpPercent <= 0.25 {
+      let colorize = SKAction.colorize(with: .red, colorBlendFactor: 1, duration: 1)
+      healthBar.run(colorize)
+    }
   }
   
   func updateCostBarValue(energyCurrent: Float, energyCost: Float, skillBarName: String) {

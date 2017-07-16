@@ -209,10 +209,21 @@ extension GameScene {
     let centerPosition = CGPoint(
       x: (pokemonSprite.position.x + pokemonSprite.position.x)/2,
       y: (pokemonSprite.position.y + pokemonSprite.position.y)/2 - 8)
+    let backPosition = CGPoint(
+      x: (pokemonSprite.position.x + pokemonSprite.position.x)/2,
+      y: (pokemonSprite.position.y + pokemonSprite.position.y)/2 - 10)
     
     // Add a label for the score that slowly floats up.
+    let backgroundLabel = SKLabelNode(fontNamed: "GillSans-BoldItalic")
+    backgroundLabel.fontSize = 45
+    backgroundLabel.fontColor = UIColor.black
+    backgroundLabel.text = String(format: "%ld", damageValue)
+    backgroundLabel.position = backPosition
+    pokemonLayer.addChild(backgroundLabel)
+    
     let damageLabel = SKLabelNode(fontNamed: "GillSans-BoldItalic")
-    damageLabel.fontSize = 22
+    damageLabel.fontSize = 40
+    damageLabel.fontColor = UIColor.white
     damageLabel.text = String(format: "%ld", damageValue)
     damageLabel.position = centerPosition
     pokemonLayer.addChild(damageLabel)
@@ -220,6 +231,7 @@ extension GameScene {
     let moveAction = SKAction.move(by: CGVector(dx: 0, dy: 30), duration: 1.0)
     moveAction.timingMode = .easeOut
     damageLabel.run(SKAction.sequence([moveAction, SKAction.removeFromParent()]), completion: completion)
+    backgroundLabel.run(SKAction.sequence([moveAction, SKAction.removeFromParent()]))
   }
   
   func animatePokemonAttack(pokemon: Pokemon, opponent: Pokemon, attackTarget: String, completion: @escaping () -> ()) {

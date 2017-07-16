@@ -29,7 +29,7 @@ class UserPokemonDataController {
     let pokemonGrowth = pokemonData.growth
     
     // Set Values
-    pokemon.setValue(pokemonName, forKeyPath: "pokemonName")
+    pokemon.setValue(pokemonData.name, forKeyPath: "pokemonName")
     pokemon.setValue(pokemonData.id, forKeyPath: "pokemonId")
     pokemon.setValue(level, forKeyPath: "level")
     pokemon.setValue(true, forKeyPath: "alive")

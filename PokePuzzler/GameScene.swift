@@ -376,8 +376,8 @@ class GameScene: SKScene {
     let location = touch.location(in: cookiesLayer)
     
     // Print coordinates of touch
-    NSLog("X location: %f", location.x)
-    NSLog("Y Location: %f", location.y)
+    // NSLog("X location: %f", location.x)
+    // NSLog("Y Location: %f", location.y)
     
     // If the touch is inside a square, then this might be the start of a
     // swipe motion.
